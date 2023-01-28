@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" required />
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" required />
+    <label for="mobile">Mobile</label>
+    <input id="mobile" type="number" name="mobile" required />
+    <label for="amount">Amount(INR)</label>
+    <input id="amount" type="number" name="amount" required />
+    <button id="submit">order</button>
+
+    <script src="./script.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </body>
+</html>
